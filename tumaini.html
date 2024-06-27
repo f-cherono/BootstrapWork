@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- link css -->
+<link rel="stylesheet" href="css/bootstrap.css">
+    <!-- script js -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- internal css -->
+    <style>
+    img:hover{
+        transform: scale(1.1);
+    }
+
+   img{
+    transition: 1s;
+
+}
+    </style>
+
+</head>
+<body>
+
+
+<!-- container start: main wrapper -->
+<div class="container-fluid">
+
+    <!-- navbar starts -->
+    <section class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <!-- 1.navbar-brand -->
+                 <a href="" class="navbar-brand">Tumaini collections</a>
+
+                 <!-- 2. toggle-button -->
+                  <button class="navbar-toggler" data-bs-target="#items" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <!-- 3.navbar-collaps items -->
+                   <div class="navbar-collapse collapse" id="items">
+                        <div class="navbar-nav">
+                            <a href="" class="nav-link">Home</a>
+                            <a href="" class="nav-link">Beddings</a>
+                            <a href="" class="nav-link">Fashion</a>
+                            <a href="" class="nav-link">Electronics</a>
+                            <a href="" class="nav-link">Groceries</a>
+                            
+
+                        </div>
+
+                        <div class="navbar-nav ms-auto">
+                            <a href="" class="btn btn-primary me-2">login</a>
+                            <a href="" class="btn btn-primary">sign up</a>
+      
+                         </div>
+
+                   </div>
+
+                 
+
+            </nav>
+
+        </div>
+
+    </section>
+    <!-- navbar stops -->
+     <br>
+     <hr>
+
+
+
+    <!-- section 2 starts: carousel(image slider)-->
+    <!-- javaScript is introduced by data-bs attribute -->
+    <!-- carousel have 2 major components -->
+    <!-- 1. carousel-inner: slide images(carousel-item) -->
+    <!-- 2. carousel-controls: (prev/nex) -->
+    <section class="row">
+
+        <div class="col-md-12">
+            <div class="carousel slide" data-bs-ride="carousel" id="slider">
+
+                <!-- carousel-inner -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slide1.jpg" alt="" width="100%">
+                        <!-- item1 -->
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/slide2.jpg" alt="" width="100%">
+                        <!-- item2 -->
+
+                    </div>
+
+                        <div class="carousel-item">
+                            <img src="images/slide3.jpg" alt="" width="100%">
+                            <!-- item3 -->
+
+                        </div>
+                    
+
+                </div>
+                <!-- end carousel-innr -->
+
+                <!-- 2. carousel-controls -->
+                <a href="#sslider" class="carousel-control-prev" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#slider" class="carousel-control-next" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+                <!-- end carousel controls -->
+
+            </div>
+             <!-- end carousel -->
+
+        </div>
+    </section>
+<!-- sectio 2 ends -->
+
+    <!-- section 3 starts -->
+    <section class="row">
+        <div class="col-md-3">
+            <img src="images/advert.jpg" alt="" alt="" width="100%">
+
+        </div>
+        <!-- col1 -->
+
+        <div class="col-md-3 text-center">
+            <img src="images\alionskettle.jpg" alt="" width="100%">
+            <h5>Alionettles k</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+            <h6 class="text-warning">KES 2,300</h6>
+
+            <span class="badge bg-danger">10%OFF</span>
+
+        </div>
+        <!-- col2 -->
+
+        <div class="col-md-3 text-center">
+            <!-- col3 -->
+            <img src="images\Mika2slicetoaster.png" alt="" width="100%">
+            <h5>Alionettles k</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+            <h6 class="text-warning">KES 2,100</h6>
+
+            <span class="badge bg-danger">5%OFF</span>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <img src="images\cooker.jpg" alt="" width="100%">
+            <h5>Alionettles k</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+            <h6 class="text-warning">KES 3,300</h6>
+
+            <span class="badge bg-danger">20%OFF</span>
+
+        </div>
+        <!-- col4 -->
+
+
+    </section>
+    <!-- section 3 ends -->
+    <br>
+    <hr>
+
+    <!-- section 4 starts-->
+    <section class="row">
+        <div class="col-md-6">
+            <img src="images/advert1.jpg" alt="" width="100%">
+
+        </div>
+        <!-- col1 -->
+    
+
+        <div class="col-md-6">
+            <img src="images/advert2.jpg" alt="" width="100%">
+
+        </div>
+        <!-- col12 -->
+
+    </section>
+    <!-- section 4 ends -->
+    <br>
+    <hr>
+
+    <!-- section 5 staarts -->
+    <h3>Beddings</h3>
+    <section class="row">
+        <div class="col-md-3 text-center">
+            <img src="images/bed1.jpg" alt="" width="100%">
+            <h5>Floral Bedding</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+            <h6 class="text-warning">KES 3,300</h6>
+
+            <span class="badge bg-danger">20%OFF</span>
+
+        </div>
+        <!-- col1 -->
+
+        <div class="col-md-3 text-center">
+            <img src="images\bed2.jpg" alt="" width="100%">
+            <h5>Duvet Pure White</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+            <h6 class="text-warning">KES 2,300</h6>
+
+            <span class="badge bg-danger">20%OFF</span>
+
+        </div>
+        <!-- col2 -->
+
+
+        <div class="col-md-3 text-center">
+            <img src="images\bed3.jpg" alt="" width="100%">
+            <h5>Plain Double Sided</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+            <h6 class="text-warning">KES 3,300</h6>
+
+            <span class="badge bg-danger">10%OFF</span>
+
+        </div>
+        <!-- col3 -->
+
+
+        <div class="col-md-3 text-center">
+            <img src="images/bed4.jpeg" alt="" width="100%">
+            <h5>Binded Quality</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+            <h6 class="text-warning">KES 5,300</h6>
+
+            <span class="badge bg-danger">30%OFF</span>
+
+        </div>
+        <!-- col4 -->
+
+
+    </section>
+    <!-- section 5 ends -->
+
+    <br>
+    <hr>
+
+<!-- section 6 start -->
+<h4>Home Decor</h4>
+ <section class="row">
+    <div class="col-md-3 text-center">
+        <img src="images/decor1.jpg" alt="" width="100%">
+        <h5>Curtains Decor</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+        <h6 class="text-warning">KES 2,300</h6>
+
+        <span class="badge bg-danger">20%OFF</span>
+
+    </div>
+    <!-- col1 -->
+
+    <div class="col-md-3 text-center">
+        <img src="images/decor2.jpg" alt="" width="100%">
+        <h5>Soft Fluffy Carpets</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+        <h6 class="text-warning">KES 8,300</h6>
+
+        <span class="badge bg-danger">20%OFF</span>
+
+    </div>
+    <!-- col2 -->
+    <div class="col-md-3 text-center">
+        <img src="images/decor3.jpg" alt="" width="100%">
+        <h5>Generic Soft Tender</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+        <h6 class="text-warning">KES 6,200</h6>
+
+        <span class="badge bg-danger">20%OFF</span>
+    </div>
+    <!-- col3 -->
+
+    <div class="col-md-3 text-center">
+        <img src="images/decor4.jpg" alt="" width="100%">
+        <h5>Fully patched 5by8</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+        <h6 class="text-warning">KES 4,300</h6>
+
+        <span class="badge bg-danger">20%OFF</span>
+    </div>
+    <!-- col4 -->
+
+   </section>
+   <!-- section 6 ends -->
+
+   <br>
+   <hr>
+    <!-- ssecton 7 start -->
+    <h5>TV Screens</h5>
+    <section class="row">
+        <div class="col-md-3 text-center">
+            <img src="images/screen1.jpg" alt="" width="100%">
+        <h5>Synix 32Inch</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+        <h6 class="text-warning">KES 23,300</h6>
+
+        <span class="badge bg-danger">50%OFF</span>
+
+        </div>
+        <!-- col1 -->
+
+        <div class="col-md-3 text-center">
+            <img src="images/screen2.jpg" alt="" width="100%">
+        <h5>Fully patched 5by8</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+        <h6 class="text-warning">KES 18,300</h6>
+
+        <span class="badge bg-danger">10%OFF</span>
+
+        </div>
+        <!-- col2 -->
+
+        <div class="col-md-3 text-center">
+            <img src="images/screen3.jpg" alt="" width="100%">
+        <h5>Fully patched 5by8</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+        <h6 class="text-warning">KES 30,000</h6>
+
+        <span class="badge bg-danger">15%OFF</span>
+
+        </div>
+        <!-- col3 -->
+
+        <div class="col-md-3 text-center">
+            <img src="images/screen4.jpg" alt="" width="100%">
+        <h5>Fully patched 5by8</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+        <h6 class="text-warning">KES 20,300</h6>
+
+        <span class="badge bg-danger">20%OFF</span>
+
+        </div>
+        <!-- col4 -->
+
+    
+    </section>
+    <!-- section 7 ends -->
+
+    <br>
+    <hr>
+    
+<!-- section 9 starts  -->
+<h6>Latest News</h6>
+<br>
+<section class="row">
+    <div class="col-md-4 text-center">
+        <h5>Business</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+    
+
+    </div>
+    <!-- col1 -->
+
+    <div class="col-md-4 text-center">
+        <h5>Beauty</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+
+    </div>
+    <!-- col2 --> 
+
+    <div class="col-md-4 text-center">
+        <h5>Lifstyle</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+
+    </div>
+    <!-- col3 -->
+
+</section>
+<!-- section 9 ends -->
+
+    <br>
+    <hr>
+
+    <!-- section 10 starts -->
+    <h5>Bathroom Accessories</h5>
+    <section class="row">
+        <div class="col-md-3 text-center">
+            <img src="images/advert.jpg" alt="" width="100%">
+
+        </div>
+        <!-- col1 -->
+
+        <div class="col-md-3 text-center">
+            <img src="images/bath2.jpg" alt="" width="100%">
+        <h5>Generic Soft Nylon</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+        <h6 class="text-warning"><span style="text-decoration: line-through; color: black;">KES 5,500</span>KES 3,400</h6>
+
+        <span class="badge bg-danger">20%OFF</span>
+
+        </div>
+        <!-- col2 -->
+
+        <div class="col-md-3 text-centre">
+            <img src="images/bath3.jpg" alt="" width="100%">
+            <h5>Kids toothbrush silicon </h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+            <h6 class="text-warning"> <span style="text-decoration: line-through; color: black;">KES 1,500</span>KES 900</h6>
+    
+            <span class="badge bg-danger">10%OFF</span> 
+
+        </div>
+        <!-- col3 -->
+
+        <div class="col-md-3 text-center">
+            <img src="images/bath4.jpg" alt="" width="100%">
+        <h5>Generic 6Hook</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+
+        <h6 class="text-warning"> <span style="text-decoration: line-through; color: black;">KES 1,400</span> KES 1000</h6>
+
+        <span class="badge bg-danger">20%OFF</span>
+
+        </div>
+        <!-- col4 -->
+
+
+    </section>
+    <!-- section 10 ends -->
+
+    <br>
+    <hr>
+
+        <!-- section 11 starts -->
+       <h5>Latest Brands</h5>
+       <br>
+       <section class="row">
+        <div class="col-md-3 text-center"> 
+           <div class="card shaddow p-1">
+            <h5>ARMCO</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+
+           </div>
+
+
+        </div>
+        <!-- col1 -->
+
+        <div class="col-md-3 text-centre">
+            <div class="card shaddow p-1"><h5>Hisense</h5>
+                <p>Lorem ipsum dolor sit amet , consectetur adipisicing elit. Eaque, doloribus.</p>
+
+
+            </div>
+            
+            
+
+        </div>
+        <!-- col2 -->
+
+        <div class="col-md-3 text-centre">
+            <div class="card shaddow p-1">
+                <h5>Vitron</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+
+            </div>
+
+
+        </div>
+        <!-- col3 -->
+
+        <div class="col-md-3 text-center">
+            <div class="card shaddow p-1">
+                <h5>Synix</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus.</p>
+
+            </div>
+
+        </div>
+        <!-- col4 -->
+
+       </section>
+        <!-- section 11 ends -->
+
+        <!-- section 12 starts -->
+        <section class="row bg-warning p-3 text-white">
+            <div class="col-md-4">
+                <h5>About us</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, velit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga distinctio deleniti libero reprehenderit earum! Nostrum quia, eligendi obcaecati excepturi, magni nisi quasi dolores cupiditate culpa nemo eveniet reprehenderit quo. Nesciunt!</p>
+
+            </div>
+            <!-- col1 -->
+
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <form action="action">
+                  <input type="email" name="myemail" id="myemail" placeholder="Enter email" class="form-control"><br>
+                  <textarea name="comment" id="comment" placeholder="leave acomment" class="form-control" rows="5"></textarea><br>
+
+                  <input type="submit" value="send message" class="btn btn-success">
+                </form>
+
+            </div>
+            <!-- col2 -->
+
+            <div class="col-md-4">
+                <h5>Stay connected</h5>
+
+                <a href=""> <img src="images/fb.png" alt=""></a>
+                <a href=""> <img src="images/in.png" alt=""></a>
+                <a href=""><img src="images/x.png" alt=""></a>
+                <br>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime in voluptas error. Non numquam veniam officiis eaque quis ullam temporibus cum, delectus eius corporis iure cumque sunt, facere quisquam asperiores?</p>
+
+            </div>
+            <!-- col3 -->
+
+            <div class="col-md-4">
+
+            </div>
+            <!-- col4 -->
+
+
+        </section>
+
+        <!-- section 12 ends -->
+
+   
+
+
+
+
+</div>
+<!-- container ends -->
+
+<footer class="bg-dark text-white text-center p-3">
+    <h5>Developed by Fatuma &copy; 2024 AlL rights reserved</h5>
+</footer>
+</body>
+</html>
